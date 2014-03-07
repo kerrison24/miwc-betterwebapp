@@ -1,0 +1,6 @@
+<h2>Here are the most recent tweets that contain the word 'love':</h2>
+<br>
+<% @love_tweets.take(10).collect do |tweet| %>
+      <%= tweet.text %> 
+      <br><br>
+    <%end%>

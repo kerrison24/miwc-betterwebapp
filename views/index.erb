@@ -1,0 +1,17 @@
+Hello, my name is: <%= @my_name %><br>
+
+<br>Here are some things I like:<br>
+<% @some_things.each do |thing| %>
+				<%= thing %>
+				<br/>
+		<% end %>
+		
+<br>Here are some things I don't like:<br>
+<% @other_things.each do |things| %>
+				<%= things %>
+				<br/>
+		<% end %>
+
+<br>
+<br>
+<br>

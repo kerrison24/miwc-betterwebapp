@@ -1,0 +1,6 @@
+<h2>Here are the most recent tweets that contain the word 'dog':</h2>
+<br>
+<% @dog_tweets.take(10).collect do |tweet| %>
+      <%= tweet.text %> 
+      <br><br>
+    <%end%>
